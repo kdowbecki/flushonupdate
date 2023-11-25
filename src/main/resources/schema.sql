@@ -1,0 +1,4 @@
+CREATE TABLE text_entity (
+  id INT PRIMARY KEY,
+  text VARCHAR(200) NOT NULL
+);

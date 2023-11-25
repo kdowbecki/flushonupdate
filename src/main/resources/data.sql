@@ -1,0 +1,1 @@
+INSERT INTO text_entity(id, text) VALUES (1, 'Hello'), (2, 'World');

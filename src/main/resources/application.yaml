@@ -1,0 +1,13 @@
+logging:
+  level:
+    org.springframework.cloud: TRACE
+
+spring:
+  datasource:
+    hikari:
+      auto-commit: false
+  jpa:
+    hibernate:
+      ddl-auto: none
+  main:
+    allow-bean-definition-overriding: true
