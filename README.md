@@ -39,3 +39,5 @@ java.lang.AssertionError: Misalignment: popped updateScope false !=  expected fa
 ``` 
 
 Run `TextControllerTest` to observe the error and see `CorrelationScopeCustomizer` bean which causes it.
+
+This only happens when Hikari is configured with `spring.datasource.hikari.auto-commit: false`.

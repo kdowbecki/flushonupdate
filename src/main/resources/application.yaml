@@ -5,6 +5,7 @@ logging:
 spring:
   datasource:
     hikari:
+      # TODO setting auto-commit: true will work around the problem but is that the right idea?
       auto-commit: false
   jpa:
     hibernate:
