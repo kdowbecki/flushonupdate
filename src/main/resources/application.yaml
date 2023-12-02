@@ -5,10 +5,8 @@ logging:
 spring:
   datasource:
     hikari:
-      # TODO setting auto-commit: true will work around the problem but is that the right idea?
+      # TODO setting default auto-commit: true solves the problem 
       auto-commit: false
   jpa:
     hibernate:
       ddl-auto: none
-  main:
-    allow-bean-definition-overriding: true
